@@ -1,0 +1,142 @@
+#! ---------------------------------------------------------------
+#! ObsidiaNext Theme for Hexo
+#! ---------------------------------------------------------------
+#! Designed & Coded By TriDiamond
+#! ---------------------------------------------------------------
+
+#! ---------------------------------------------------------------
+#! Site Configs
+#！ @docs https://obsidianext.tridiamond.tech/guide/configuration.html
+#! ---------------------------------------------------------------
+site:
+  subtitle: Stardust's Blog
+  author: 星尘
+  nick: Stardust
+  description: Trace on！
+  language: en
+  multi_language: true
+  logo: https://img-blog.csdnimg.cn/20210313122054101.png
+  avatar: https://img-blog.csdnimg.cn/20210313122054101.png
+  beian:
+    number: ''
+    link: ''
+
+#! ---------------------------------------------------------------
+#! Authors Configs
+#！ @docs https://obsidianext.tridiamond.tech/guide/authors.html
+#! ---------------------------------------------------------------
+authors:
+  # Examples:
+  # tom:
+  #   name: Tom Cat
+  #   avatar: https://img-blog.csdnimg.cn/20210313122054101.png
+  #   link: https://github.com/TriDiamond
+  # John:
+  #   name: John
+  #   avatar: https://img-blog.csdnimg.cn/20210313122054101.png
+  #   link: https://github.com/TriDiamond
+
+#! ---------------------------------------------------------------
+#! Menu Configs
+#！ @docs https://obsidianext.tridiamond.tech/guide/menu.html
+#! ---------------------------------------------------------------
+menu:
+  About: true
+  Tags: true
+  Archives: true
+  # Example custom menus:
+  # message-board:
+  #   name: 'MessageBoard'
+  #   i18n:
+  #     cn: '留言板'
+  #     en: 'Message Board'
+  #   path: '/page/message-board'
+  # projects:
+  #   name: 'Projects'
+  #   i18n:
+  #     cn: '项目'
+  #     en: 'Projects'
+  #   path:
+  #   children:
+  #     obsidian:
+  #       name: 'Obsidian Theme'
+  #       path: 'https://github.com/tridiamond'
+
+#! ---------------------------------------------------------------
+#! Theme Config
+#! @docs https://obsidianext.tridiamond.tech/guide/theme.html
+#! ---------------------------------------------------------------
+theme:
+  dark_mode: true
+  profile_shape: diamond # support `circle`, `diamond`, `rounded`
+  gradient:
+    color_1: '#24c6dc'
+    color_2: '#5433ff'
+    color_3: '#ff0099'
+
+#! ---------------------------------------------------------------
+#! Social Configs
+#! @docs https://obsidianext.tridiamond.tech/guide/social.html
+#! ---------------------------------------------------------------
+socials:
+  github: 'https://github.com/TriDiamond'
+  twitter: ''
+  stackoverflow: ''
+  wechat: ''
+  qq: ''
+  weibo: 'https://weibo.com/u/7318914058'
+  zhihu: 'https://www.zhihu.com/people/tridiamond'
+  csdn: 'https://blog.csdn.net/TriDiamond6'
+  juejin: 'https://juejin.cn/user/1873223546578589'
+
+#! ---------------------------------------------------------------
+#! Site Meta Configs
+#! @docs https://obsidianext.tridiamond.tech/guide/theme.html
+#! ---------------------------------------------------------------
+site_meta:
+  cdn: cn
+
+#! ---------------------------------------------------------------
+#! Plugins
+#! ---------------------------------------------------------------
+
+# For local development only!
+gitalk:
+  enable: true
+  autoExpand: true
+  clientID: ''
+  clientSecret: ''
+  repo: 'dev-blog-comments'
+  owner: 'TriDiamond'
+  admin: ['TriDiamond']
+  id: uid
+  language: en
+  distractionFreeMode: true
+  recentComment: true
+  proxy: ''
+
+# Valine comment plugin (recommended!)
+# see https://valine.js.org/quickstart.html
+valine:
+  enable: false
+  app_id:
+  app_key:
+  avatar: ''
+  placeholder: Leave your thoughts behind~
+  visitor: true
+  lang: en
+  meta: ['nick', 'mail']
+  admin: 'TriDiamond'
+  recentComment: true
+
+# Enable Busuanzi statistic plugin
+# see http://ibruce.info/2015/04/04/busuanzi/
+busuanzi:
+  enable: true
+
+#! ---------------------------------------------------------------
+#! Injections
+#! ---------------------------------------------------------------
+injects:
+  scripts:
+  css:

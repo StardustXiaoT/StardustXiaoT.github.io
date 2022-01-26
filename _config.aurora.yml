@@ -15,8 +15,8 @@ site:
   description: Trace on！
   language: en
   multi_language: true
-  logo: https://img-blog.csdnimg.cn/20210313122054101.png
-  avatar: https://img-blog.csdnimg.cn/20210313122054101.png
+  logo: https://images.unsplash.com/photo-1509114397022-ed747cca3f65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80
+  avatar: https://images.unsplash.com/photo-1509114397022-ed747cca3f65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80
   beian:
     number: ''
     link: ''
@@ -68,7 +68,7 @@ menu:
 #! ---------------------------------------------------------------
 theme:
   dark_mode: true
-  profile_shape: diamond # support `circle`, `diamond`, `rounded`
+  profile_shape: circle # support `circle`, `diamond`, `rounded`
   gradient:
     color_1: '#24c6dc'
     color_2: '#5433ff'
@@ -84,10 +84,10 @@ socials:
   stackoverflow: ''
   wechat: ''
   qq: ''
-  weibo: 'https://weibo.com/u/7318914058'
-  zhihu: 'https://www.zhihu.com/people/tridiamond'
-  csdn: 'https://blog.csdn.net/TriDiamond6'
-  juejin: 'https://juejin.cn/user/1873223546578589'
+  weibo: ''
+  zhihu: ''
+  csdn: ''
+  juejin: ''
 
 #! ---------------------------------------------------------------
 #! Site Meta Configs
@@ -95,6 +95,9 @@ socials:
 #! ---------------------------------------------------------------
 site_meta:
   cdn: cn
+  description: 'Go!'
+  keywords: 'Backend devloper, Stardust'
+  author: 'Stardust'
 
 #! ---------------------------------------------------------------
 #! Plugins
@@ -102,7 +105,7 @@ site_meta:
 
 # For local development only!
 gitalk:
-  enable: true
+  enable: false
   autoExpand: true
   clientID: ''
   clientSecret: ''

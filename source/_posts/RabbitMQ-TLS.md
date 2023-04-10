@@ -2,7 +2,7 @@
 title: RabbitMQ TLS
 date: 2022-01-24 17:52:40
 tags:
-  - TSL
+  - TLS
   - Rabbitmq
   - Config
 categories:

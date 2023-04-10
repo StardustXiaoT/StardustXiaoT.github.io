@@ -9,7 +9,12 @@ cover: https://images.unsplash.com/photo-1571035089306-e40c9289fe78?ixlib=rb-4.0
 ---
 
 
-For Rancher 2.6, refers this article [https://zhuanlan.zhihu.com/p/481258609]()
+For Rancher 2.6, refers this article：
+
+{% blockquote 袁振    https://zhuanlan.zhihu.com/p/481258609 知乎链接 %}
+Rancher 2.6 全新 Logging 快速入门
+{% endblockquote %}
+
 
 For Rancher 2.5 and 2.5 only, please refer below steps.
 
@@ -99,9 +104,3 @@ PUT /_template/fluentd
   }
 }
 ```
-
-
-然后在Kibana上给index建立生命周期即可。
-
-## Conclusion
-至此这一套基于loggin-operator的日志系统搭建完成。 
